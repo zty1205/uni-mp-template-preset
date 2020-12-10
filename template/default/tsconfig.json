@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["webpack-env", "@dcloudio/types"],
+    "paths": {
+      "*": ["types/*"],
+      "@/*": ["src/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "noImplicitThis": false
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts", "types/"],
+  "typeRoot": ["./types", "./node_modules/@types"],
+  "exclude": ["node_modules"]
+}

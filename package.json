@@ -1,0 +1,15 @@
+{
+  "name": "uni-mp-template-preset",
+  "version": "0.0.1",
+  "description": "mini program preset",
+  "author": "tengyuezhang",
+  "main": "prompts.js",
+  "keywords": [
+    "vue",
+    "preset"
+  ],
+  "devDependencies": {
+    "@vue/cli-service": "^3.11.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "serve": "npm run dev:h5",
+  "commit": "git-cz",
+  "changelog": "conventional-changelog -p conventional -i CHANGELOG.md -s -r 0",
+  "build": "cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build",
+  "dev": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch",
+  "test": "cross-env UNI_PLATFORM=mp-weixin jest -i"
+}

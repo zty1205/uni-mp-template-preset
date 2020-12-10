@@ -1,0 +1,11 @@
+{
+  "useTaobaoRegistry": true,
+  "useConfigFiles": true,
+  "router": true,
+  "routerHistoryMode": false,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {},
+    "@vue/cli-plugin-typescript": {}
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "uni-mp-template",
+  "version": "0.1.0",
+  "private": true,
+  "browserslist": [
+    "Android >= 4",
+    "ios >= 8"
+  ],
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{vue,js,jsx,scss,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "uni-app": {
+    "scripts": {}
+  }
+}

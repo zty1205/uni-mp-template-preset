@@ -1,0 +1,23 @@
+{
+  "name": "zhang-fei",
+  "appid": "",
+  "description": "",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "[APP_ID]",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.userLocation": {
+        "desc": "申请获取你当前的位置"
+      }
+    },
+    "optimization": {
+      "subPackages": true
+    }
+  }
+}
