@@ -5,7 +5,6 @@
   "routerHistoryMode": false,
   "plugins": {
     "@vue/cli-plugin-babel": {},
-    "@vue/cli-plugin-eslint": {},
-    "@vue/cli-plugin-typescript": {}
+    "@vue/cli-plugin-eslint": {}
   }
 }

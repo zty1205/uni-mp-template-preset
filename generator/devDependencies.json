@@ -12,6 +12,7 @@
   "@dcloudio/webpack-uni-mp-loader": "^2.0.0-29320201014001",
   "@dcloudio/webpack-uni-pages-loader": "^2.0.0-29320201014001",
   "@vue/cli-service": "~4.5.0",
+  "@vue/cli-plugin-typescript": "~4.5.0",
   "babel-plugin-import": "^1.11.0",
   "babel-plugin-transform-remove-console": "^6.9.4",
   "commitizen": "^4.2.2",
