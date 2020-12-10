@@ -1,7 +1,7 @@
 {
   "useTaobaoRegistry": true,
   "useConfigFiles": true,
-  "router": true,
+  "router": false,
   "routerHistoryMode": false,
   "plugins": {
     "@vue/cli-plugin-babel": {},
