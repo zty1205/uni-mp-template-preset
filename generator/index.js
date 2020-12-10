@@ -15,7 +15,7 @@ module.exports = (api, options, rootOptions) => {
 
   // env文件
   api.render({
-    './.env': '../template/env/.env',
+    './.env.development': '../template/env/.env.development',
     './.env.preview': '../template/env/.env.preview',
     './.env.production': '../template/env/.env.production'
   });
@@ -26,6 +26,6 @@ module.exports = (api, options, rootOptions) => {
   });
 
   api.onCreateComplete(() => {
-    console.log('i am onCreateComplete');
+    console.log('I am onCreateComplete');
   });
 };
