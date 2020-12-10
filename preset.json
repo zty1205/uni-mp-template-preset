@@ -4,7 +4,6 @@
   "router": false,
   "routerHistoryMode": false,
   "plugins": {
-    "@vue/cli-plugin-babel": {},
-    "@vue/cli-plugin-eslint": {}
+    "@vue/cli-plugin-babel": {}
   }
 }
