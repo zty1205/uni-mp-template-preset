@@ -36,3 +36,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - 通用性网关
 - store 基本模板
 - commit 规范化
+
+## tip
+
+- uni.d.ts 的报错可忽略

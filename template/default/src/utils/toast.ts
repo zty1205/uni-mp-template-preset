@@ -65,7 +65,7 @@ export function showLoading(config: UniApp.ShowLoadingOptions): Res {
 
 export function hideLoading(): Res {
   isShowToast = false;
-  return uni.hideToast();
+  return uni.hideLoading();
 }
 
 export default {
