@@ -1,6 +1,6 @@
 {
   "name": "uni-mp-template-preset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mini program preset",
   "author": "tengyuezhang",
   "main": "prompts.js",
