@@ -28,7 +28,7 @@ class WxLog {
     this.defaultCustom = config.defaultCustom;
   }
 
-  log(trackId: string, custom?: AnyObject, beforeHandle?: Function): void {
+  log(trackId: string, custom?: AnyObject): void {
     console.log('log');
     try {
       uni.request({

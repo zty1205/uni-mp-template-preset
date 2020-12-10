@@ -29,7 +29,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - appid 替换
 - 环境变量
 - 分包 copy
-- 支持 ts
+- 支持 ts，ts 文件内仍可使用 js
 - 通用方法封装：埋点，微信相关，通用方法
 - 删除 console
 - toast loading 处理
