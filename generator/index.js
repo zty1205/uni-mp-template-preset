@@ -31,5 +31,6 @@ module.exports = (api, options, rootOptions) => {
 
   api.onCreateComplete(() => {
     console.log('I am onCreateComplete');
+    console.log('%cI am onCreateComplete', 'color:red;font-size: 16px;');
   });
 };
