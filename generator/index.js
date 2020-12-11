@@ -1,4 +1,8 @@
 module.exports = (api, options, rootOptions) => {
+  console.log('op = ', options, rootOptions);
+
+  const { package } = options;
+
   const dependencies = require('./dependencies.json');
   const devDependencies = require('./devDependencies.json');
   const scripts = require('./scripts.json');
